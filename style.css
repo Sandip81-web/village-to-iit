@@ -113,3 +113,87 @@ footer {
         padding: 40px 10%;
     }
 }
+/* Courses Section */
+.courses {
+    padding: 60px 10%;
+    background: #f1f5f9;
+    text-align: center;
+}
+
+.courses h2 {
+    margin-bottom: 40px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.course-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-8px);
+}
+
+.course-card h3 {
+    margin-bottom: 10px;
+    color: #1e40af;
+}
+
+.highlight {
+    border: 2px solid #2563eb;
+}
+
+/* Why Section */
+.why {
+    padding: 60px 15%;
+    background: white;
+}
+
+.why h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.why ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+.why ul li {
+    margin-bottom: 12px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.why ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #2563eb;
+}
+
+/* CTA */
+.cta {
+    background: linear-gradient(120deg, #1e40af, #2563eb);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cta button {
+    margin-top: 20px;
+    padding: 14px 30px;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
