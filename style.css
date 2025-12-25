@@ -223,55 +223,97 @@ footer {
     font-weight: bold;
 }
 /* Pricing Section */
+/* Pricing Section */
 .pricing {
-    padding: 60px 10%;
-    background: #ffffff;
+    padding: 80px 8%;
+    background: #f8fafc;
     text-align: center;
 }
 
 .pricing h2 {
+    font-size: 36px;
     margin-bottom: 10px;
 }
 
 .pricing-sub {
     font-size: 18px;
-    margin-bottom: 40px;
     color: #555;
+    margin-bottom: 50px;
 }
 
-.pricing-grid {
+/* Cards */
+.pricing-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
 }
 
-.price-card {
-    background: #f8fafc;
-    padding: 30px 20px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    transition: transform 0.3s;
+.pricing-card {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    position: relative;
+    transition: all 0.3s ease;
 }
 
-.price-card:hover {
-    transform: translateY(-8px);
+.pricing-card:hover {
+    transform: translateY(-12px);
 }
 
-.price-card h3 {
-    margin-bottom: 10px;
+.pricing-card h3 {
+    font-size: 24px;
     color: #1e40af;
 }
 
-.price {
-    font-size: 32px;
-    font-weight: bold;
-    color: #2563eb;
-    margin: 15px 0;
+.tag {
+    color: #666;
+    margin-bottom: 15px;
 }
 
-.highlight-price {
-    border: 2px solid #2563eb;
-    background: #eef2ff;
+.amount {
+    font-size: 38px;
+    font-weight: bold;
+    color: #2563eb;
+    margin: 20px 0;
+}
+
+.pricing-card ul {
+    list-style: none;
+    margin: 25px 0;
+}
+
+.pricing-card ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.price-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #2563eb;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Highlight Card */
+.best {
+    border: 3px solid #2563eb;
+    background: linear-gradient(180deg, #eef2ff, #ffffff);
+}
+
+.badge {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2563eb;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
 }
 
 
