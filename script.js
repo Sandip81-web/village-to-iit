@@ -3,3 +3,7 @@ function showAbout() {
     aboutSection.classList.remove("hidden");
     aboutSection.scrollIntoView({ behavior: "smooth" });
 }
+function toggleDark() {
+    document.body.classList.toggle("dark");
+}
+
