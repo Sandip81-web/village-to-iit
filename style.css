@@ -197,3 +197,30 @@ footer {
     cursor: pointer;
     font-weight: bold;
 }
+.enroll {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f8fafc;
+}
+
+.enroll h2 {
+    margin-bottom: 10px;
+}
+
+.enroll p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.enroll-btn {
+    padding: 14px 35px;
+    font-size: 18px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
