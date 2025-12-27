@@ -474,6 +474,31 @@ footer {
   border-radius: 8px;
   font-size: 14px;
 }
+//homework
+#homework {
+  padding: 50px 20px;
+  background: #f8fafc;
+}
+
+.class-box {
+  margin-bottom: 40px;
+}
+
+.subject-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  margin: 15px 0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.subject-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2563eb;
+  font-weight: bold;
+}
+
 
 
 
