@@ -36,6 +36,32 @@
         <p>A journey of hard work, discipline, and belief.</p>
         <button onclick="showAbout()">Know My Story</button>
     </section>
+  <section id="homework">
+  <h2>📚 Homework</h2>
+
+  <div class="class-box">
+    <h3>Class 10</h3>
+
+    <div class="subject-card">
+      <h4>Physics</h4>
+      <p id="c10-physics-text">Loading...</p>
+      <a id="c10-physics-pdf" target="_blank">Download PDF</a>
+    </div>
+
+    <div class="subject-card">
+      <h4>Chemistry</h4>
+      <p id="c10-chem-text">Loading...</p>
+      <a id="c10-chem-pdf" target="_blank">Download PDF</a>
+    </div>
+
+    <div class="subject-card">
+      <h4>Mathematics</h4>
+      <p id="c10-math-text">Loading...</p>
+      <a id="c10-math-pdf" target="_blank">Download PDF</a>
+    </div>
+  </div>
+</section>
+
 
     <!-- About Section -->
     <section id="about" class="about hidden">
@@ -290,6 +316,7 @@ if ("serviceWorker" in navigator) {
     .then(() => console.log("Service Worker Registered"));
 }
 </script>
+
 
 
 
