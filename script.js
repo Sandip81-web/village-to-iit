@@ -6,7 +6,9 @@ function showAbout() {
 function toggleDark() {
     document.body.classList.toggle("dark");
 }
-const API_URL = "PASTE_YOUR_WEB_APP_URL_HERE";
+const API_URL = "https://script.google.com/macros/s/AKfycbxADJDK2HBiYSf5PqYJn9P-aCV3bK1Epqvt6bvvOl02CCCy5t7q99NPMAj9AkgH8qcLvg/exec
+
+";
 
 fetch(API_URL)
   .then(res => res.json())
@@ -32,6 +34,7 @@ fetch("API_URL")
       }
     });
   });
+
 
 
 
